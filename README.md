@@ -2,6 +2,7 @@
 
 Live Project Link : <b> https://blogappbysanskar.pythonanywhere.com/ulogin/ </b>
 <br/>
+<br/>
 The Blog Platform is a Django-based web application designed for users to create, manage, and interact with blog posts. It includes user authentication, blog post management, comment functionality, and a like system. This project demonstrates a full-featured blogging system with essential features and a clean, responsive design.
 
 Features
