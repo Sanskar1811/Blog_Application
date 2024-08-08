@@ -35,12 +35,7 @@ ii) Create and Activate a Virtual Environment
 
 python -m venv venv
 <br>
-Actiavate venv (On Windows):
 venv\Scripts\activate
-
-<br/>
-On (macOS/Linux):
-source venv/bin/activate
 
 iii) Install Project Dependencies
 <br/>
