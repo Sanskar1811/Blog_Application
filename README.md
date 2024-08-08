@@ -24,7 +24,7 @@ Features
 
 <br/>
 <b>Installation and Setup Instructions</b>
-
+<br/>
 i) Clone the Repository
 
 git clone https://github.com/Sanskar1811/blog_platform.git
@@ -35,12 +35,11 @@ ii) Create and Activate a Virtual Environment
 
 python -m venv venv
 <br>
-Activate the virtual environment:
-On Windows:
+Actiavate venv (On Windows):
 venv\Scripts\activate
 
 <br/>
-On macOS/Linux:
+On (macOS/Linux):
 source venv/bin/activate
 
 iii) Install Project Dependencies
