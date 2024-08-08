@@ -21,3 +21,53 @@ Features
 6) Responsive Design: The application is designed to be responsive and user-friendly on both desktop and mobile devices.
    
 8) Made project Live Project on PythonAnyWhere.
+
+<br/>
+<b>Installation and Setup Instructions</b>
+
+i) Clone the Repository
+
+Start by cloning the project repository to your local machine.
+
+git clone https://github.com/Sanskar1811/blog_platform.git
+cd blog_platform
+
+ii) Create and Activate a Virtual Environment
+Creating a virtual environment helps manage dependencies and isolate your project's environment from other Python projects.
+
+python -m venv venv
+
+Activate the virtual environment:
+On Windows:
+venv\Scripts\activate
+
+On macOS/Linux:
+source venv/bin/activate
+
+iii) Install Project Dependencies
+With the virtual environment activated, install the required packages listed in requirements.txt.
+
+pip install -r requirements.txt
+
+iv) Apply Database Migrations
+
+Apply the database migrations to set up database schema 
+python manage.py makemigrations
+python manage.py migrate
+
+
+v) Access the Django admin interface using create a superuser account.
+
+python manage.py createsuperuser
+
+
+vi) Run the Development Server
+
+Start the Django development server to test the application locally.
+
+python manage.py runserver
+Open your web browser and go to http://127.0.0.1:8000/ to view the application.
+
+vii) Access the Admin Interface (Optional)
+
+To access the Django admin interface, go to http://127.0.0.1:8000/admin/ 
