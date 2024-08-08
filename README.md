@@ -51,6 +51,7 @@ iv) Apply Database Migrations
 
 Apply the database migrations to set up database schema 
 python manage.py makemigrations
+<br/>
 python manage.py migrate
 
 
@@ -60,11 +61,9 @@ python manage.py createsuperuser
 
 
 vi) Run the Development Server
-
-Start the Django development server to test the application locally.
-
+<br/>
 python manage.py runserver
-Open your web browser and go to http://127.0.0.1:8000/ to view the application.
+
 
 vii) Access the Admin Interface (Optional)
 
