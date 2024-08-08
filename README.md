@@ -32,10 +32,9 @@ git clone https://github.com/Sanskar1811/blog_platform.git
 cd blog_platform
 
 ii) Create and Activate a Virtual Environment
-Creating a virtual environment helps manage dependencies and isolate your project's environment from other Python projects.
 
 python -m venv venv
-
+<br>
 Activate the virtual environment:
 On Windows:
 venv\Scripts\activate
