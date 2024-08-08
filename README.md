@@ -27,9 +27,8 @@ Features
 
 i) Clone the Repository
 
-Start by cloning the project repository to your local machine.
-
 git clone https://github.com/Sanskar1811/blog_platform.git
+<br/>
 cd blog_platform
 
 ii) Create and Activate a Virtual Environment
