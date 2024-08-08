@@ -39,24 +39,23 @@ Activate the virtual environment:
 On Windows:
 venv\Scripts\activate
 
+<br/>
 On macOS/Linux:
 source venv/bin/activate
 
 iii) Install Project Dependencies
-With the virtual environment activated, install the required packages listed in requirements.txt.
-
+<br/>
 pip install -r requirements.txt
 
 iv) Apply Database Migrations
-
-Apply the database migrations to set up database schema 
+<br/>
 python manage.py makemigrations
 <br/>
 python manage.py migrate
 
 
 v) Access the Django admin interface using create a superuser account.
-
+<br/>
 python manage.py createsuperuser
 
 
@@ -66,5 +65,5 @@ python manage.py runserver
 
 
 vii) Access the Admin Interface (Optional)
-
+<br/>
 To access the Django admin interface, go to http://127.0.0.1:8000/admin/ 
