@@ -1,0 +1,35 @@
+{%  extends 'blog/base.html '  %}
+
+
+{%  block content %}
+<style>
+* {
+    font-size:3.2vw;
+
+}
+
+input[type="submit"]
+{
+    background-color:#fff;
+    width:20vw;
+}
+</style>
+<h1> Login Page  </h1>
+
+<form method = "POST">
+{%  csrf_token  %}
+
+<input type = "text"   name="un"  placeholder="Enter username :"  required/>
+<br><br>
+<input type = "password"   name="pw"  placeholder="Enter password :"  required/>
+<br><br>
+
+<input type="submit"  value="Login" /> 
+<h2> {{  msg  }}  </h2>
+
+
+
+</form>
+
+
+{%  endblock  %}

@@ -1,0 +1,35 @@
+{%  extends 'blog/base.html '  %}
+
+{%  block content %}
+
+<style>
+    * {
+        font-size:2.5vw;
+    
+    }
+    
+    input[type="submit"]
+    {
+        background-color:#fff;
+        width:25vw;
+    }
+</style>
+
+<h1> Change Password  </h1>
+<br/>
+<form method = "POST">
+{%  csrf_token  %}
+
+<input type = "password"   name="pw1"  placeholder="Enter password :"  required/>
+<br><br>
+<input type = "password"   name="pw2"  placeholder="Confirm password :"  required/>
+<br><br>
+<input type="submit"  value="Change Password" /> 
+<br/><br/>
+<h2> {{  msg   }} </h2>
+
+
+
+</form>
+
+{%  endblock  %}
